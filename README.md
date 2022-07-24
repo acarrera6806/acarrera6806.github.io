@@ -5,7 +5,7 @@
 - Estudiante de Software - Universidad Técnica de Ambato
 - Soy una persona responsable, resiliente, dispuesto a adaptarme a nuevos cambios, con muchas ganas de poner en práctica todo lo aprendido y obtener nuevos conocimientos a traves de la experiencia. 
 - Me considero una persona proactiva que ante las adversidades sabe proponer una solución viable para un obstáculo determinado.
-- Actualmente continúo con mis estudios, pero me encuentro abierto para la oportunidad de trabajar, este es mi [CV](cv.html) y [mi portafolio](index.html).
+- Actualmente continúo con mis estudios, pero me encuentro abierto para la oportunidad de trabajar, este es mi [CV](https://acarrera6806.github.io/cv.html) y [mi portafolio](https://acarrera6806.github.io/).
 - Me mantengo en `aprendizaje contínuo` para obtener nuevos conocimientos. 
 
 
