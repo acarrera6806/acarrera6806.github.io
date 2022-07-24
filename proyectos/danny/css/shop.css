@@ -1,0 +1,84 @@
+#contacto {
+    height: 400px;
+    padding-top: 50px;
+}
+
+@import url(paginas.css);
+.articulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.articulos {
+    display: grid;
+    grid-template-rows: minmax(500px, auto);
+}
+
+.saludo {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.imagen img {
+    max-width: 100%;
+}
+
+.saludo {
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    grid-template-columns: 40% 60%;
+}
+
+@media (max-width: 952px) {
+    .articulos {
+        grid-template-rows: minmax(450px, auto);
+    }
+}
+
+@media (max-width: 858px) {
+    .articulos div {
+        grid-template-rows: minmax(400px, auto);
+    }
+    .imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .saludo {
+        display: inline-block;
+    }
+    .imagen img {
+        display: none;
+    }
+    .articulos div {
+        grid-template-rows: minmax(400px, auto);
+    }
+    .imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .articulos div {
+        grid-template-rows: minmax(230px, auto);
+    }
+}
+
+@media(max-width:370) {
+    .articulos {
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        grid-template-rows: minmax(200px, auto);
+    }
+    .articulos {
+        height: 200px;
+    }
+}
